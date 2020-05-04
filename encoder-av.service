@@ -1,0 +1,10 @@
+[Unit]
+Description=Sachin's Test to Install Imahe HAHAHA
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/usr/bin/enoder-av -platform linuxfb
+ 
+[Install]
+WantedBy=multi-user.target
